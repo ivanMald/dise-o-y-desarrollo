@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 0;
+    font-family: 'Sono', sans-serif;    
+    background-color: #E3F6FF;
+}
+
+
+header {
+    border-radius: 20px;
+    background-color: #8DCBE6;
+	color: #400E32;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.secCero {
+    border-radius: 20px;
+    padding: 5px;
+	margin: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8DCBE6;
+}
+
+.introduccion{
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 800px;
+    text-align: center;
+}
+.Apren{
+    
+        color: #f6ff00;
+        text-shadow:
+        0 0 7px #ff01b7,
+        0 0 10px #ff01b7,
+        0 0 21px #ff01b7,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+.secUno{
+    background-color: #FFEA20;
+    border-radius: 20px;
+    padding: 5px;
+	margin: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.secUno p{
+    max-width: 800px;
+    font-size: 18px;
+    color: #400E32;
+}
+.secUno h2{
+    color: #400E32;
+}
+.secDos{
+    background-color: #9DF1DF;
+    border-radius: 20px;
+    padding: 5px;
+	margin: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.secDos p{
+    max-width: 800px;
+    font-size: 18px;
+}
+.secTres{
+    background-color: #400E32;
+    border-radius: 20px;
+    padding: 5px;
+	margin: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+.secTres li{
+    list-style: none;
+    font-size: 24px;
+    color: #f6ff00;
+}
+.secTres h2{
+    font-size: 40px;
+    color: #f6ff00;
+}
+.numeros{
+    color: #f6ff00;
+    text-shadow:
+    0 0 7px #ff01b7,
+    0 0 10px #ff01b7,
+    0 0 21px #ff01b7,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+h2 {
+	font-size: 24px;
+	margin: 0 0 10px 0;
+}
+
+
+footer {
+	background-color: #400E32;
+	color: #fff;
+	padding: 1px;
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .introduccion {
+    font-size: 15px;
+    }
+    .secUno p{
+        font-size: 15px;
+    }
+    .secDos p{
+        font-size: 15px;
+    }
+    .secTres li{
+        font-size: 20px;
+    } 
+    .secTres h2{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .introduccion {
+    font-size: 12px;
+    }
+    .secUno p{
+        font-size: 12px;
+    }
+    .secDos p{
+        font-size: 12px;
+    }
+    .secTres li{
+        font-size: 17px;
+    } 
+    .secTres h2{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    
+}
